@@ -1,3 +1,7 @@
+/////////////////////////////////////////////////////////////////////
+//Adilson Medronha, Felipe Ferro, Rafael Fontana e Nathan Schostack//
+/////////////////////////////////////////////////////////////////////
+
 import java.util.Hashtable;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -5,7 +9,10 @@ import java.util.Scanner;
 
 public class Frequencia {
 
-    public Hashtable<Character,Double> Frequencia(String nomeArquivo) throws FileNotFoundException{        
+    public Frequencia(String string) {
+	}
+
+	public Hashtable<Character,Double> Frequencia(String nomeArquivo) throws FileNotFoundException{        
         
         Hashtable<Character,Double> table = new Hashtable<Character,Double>();
         File arquivo = new File(nomeArquivo);
