@@ -1,3 +1,7 @@
+///////////////////////////////////////////////////////
+//Adilson Medronha, Rafael Fontana e Nathan Schostack//
+///////////////////////////////////////////////////////
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -9,6 +13,7 @@ import java.util.List;
 
 public class HuffmanEncoding {
 
+    Hashtable<Character,String> codigosHuffman;
 	Hashtable<Character,Double> ft;
 	BinTree bt;
 
@@ -127,6 +132,7 @@ public class HuffmanEncoding {
 		
 		ft = frequencyTable;
 		bt = buildBinTree();
+        codigosHuffman = new Hashtable<Character,String>();
 		
 	}
 	
@@ -187,6 +193,7 @@ public class HuffmanEncoding {
 		
 		if(n.getLeftChild() == null && n.getRightChild() == null){
 			System.out.println(n.character+" - "+code);
+            codigosHuffman.put(n.character, code);
 			return;
 		}
 		
