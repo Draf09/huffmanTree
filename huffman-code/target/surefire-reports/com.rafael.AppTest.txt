@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.rafael.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.06 s <<< FAILURE! - in com.rafael.AppTest
+com.rafael.AppTest.testEncoding  Time elapsed: 0.043 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.rafael.AppTest.testEncoding(AppTest.java:21)
+
