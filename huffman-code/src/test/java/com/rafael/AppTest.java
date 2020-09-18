@@ -4,13 +4,9 @@ import java.util.HashMap;
 
 import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
 public class AppTest 
 {
     
-
     @Test
 	void testEncoding() {		
 		// test input
@@ -31,5 +27,6 @@ public class AppTest
     }
 
     private void assertTrue(boolean testResult) {
+
     }
 }
